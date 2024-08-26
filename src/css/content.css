@@ -1,0 +1,102 @@
+#popup-window {
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    min-width: 150px;
+
+    background: #fafae0;
+    color: #000;
+    border: 2px solid #c9c2b1;
+    border-radius: 8px;
+    border-spacing: 0;
+    margin: 0;
+    padding: 5px;
+    box-shadow: 4px 4px 0 0 rgba(66,8,8,0.10);
+
+    letter-spacing: normal;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    text-transform: none;
+    white-space: normal;
+    word-spacing: normal;
+    font: normal 14px sans-serif;
+
+    visibility: visible;
+    position: absolute;
+    z-index: 214783647;
+}
+
+#popup-window .popup-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* entry positioning */
+#popup-window .entry {
+    font-family: Roboto, sans-serif;
+}
+#popup-window .entry:not(:last-of-type) .def:after {
+    display: block;
+    content: '';
+    width: 100%;
+    margin: 5px -5px 3px -5px;
+    padding-left: 10px;
+    height: 1px;
+    background-color: #e3e3e3;
+}
+
+#popup-window .spacer {
+    padding-left: 5px;
+}
+
+
+/* entry styling */
+#popup-window .chinese {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Microsoft JhengHei", "Microsoft YaHei UI", sans-serif;
+    margin-right: 10px;
+    color: #2a6592;
+}
+
+#popup-window .brace {
+    color: #c9c2b1;
+}
+
+#popup-window .pinyin {
+    float: left;
+    height: fit-content;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #8ec3eb;
+}
+
+#popup-window .def {
+    clear: left;
+    color: #524e45;
+    font-size: 13px;
+}
+
+#popup-window .def b {
+    font-size: 11px;
+    margin-right: 1px;
+}
+
+#popup-window .def b:not(:first-child) {
+    margin-left: 4px;
+}
+
+/* used for word definitions */
+#popup-window .popup-title {
+    margin-bottom: 5px;
+    color: #524e45;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+

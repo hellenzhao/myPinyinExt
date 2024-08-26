@@ -1,0 +1,38 @@
+These are some links that I found helpful while developing this extension.
+
+
+learning about web extensions and dom
+* https://developer.chrome.com/docs/extensions/get-started
+* https://developer.chrome.com/docs/extensions/reference/api
+* https://developer.chrome.com/docs/extensions/develop/concepts/service-workers/basics#import-scripts
+* https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/public/common/service_worker/service_worker_status_code.h
+* https://developer.mozilla.org/en-US/docs/Web/API/Text (text nodes)
+
+
+helpful stack pages
+* https://stackoverflow.com/questions/28858027/how-to-read-file-from-chrome-extension
+* https://stackoverflow.com/questions/63308160/how-to-migrate-manifest-version-2-to-v3-for-chrome-extensionf
+* https://stackoverflow.com/questions/7420109/what-does-style-display-actually-do
+* https://stackoverflow.com/questions/16046585/chrome-extension-send-message-from-background-script-to-all-tabs
+
+
+regex
+* https://www.regular-expressions.info/refquick.html
+* https://www.w3schools.com/jsref/jsref_regexp_g.asp
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec
+
+
+chinese related
+* https://www.mdbg.net/chinese/dictionary?page=cedict
+* https://stackoverflow.com/questions/496321/utf-8-utf-16-and-utf-32
+* https://zh.wikisource.org/wiki/%E7%AE%80%E5%8C%96%E5%AD%97%E6%80%BB%E8%A1%A8 
+* https://www.ifreesite.com/gbkbig5.htm
+* https://en.wikipedia.org/wiki/Pinyin#Initials (used for tone placement)
+
+
+data + icons 
+* https://www.mdbg.net/chinese/dictionary?page=cedict
+* https://www.softicons.com/icon-tools/icon-converter
+* also website to make images black/white
+
+
